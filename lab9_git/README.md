@@ -1,3 +1,4 @@
+markdown
 # Лабораторная работа 9 – Git
 
 
@@ -6,49 +7,49 @@
 
 
 
-![01.git_status.png](screenshots/01.git_status.png)
+![01_git_status.png](screenshots/01_git_status.png)
 
 Команда показывает текущее состояние рабочей директории. На этом этапе репозиторий чист.
 
 
 
-![02.git_log.png](screenshots/02.git_log.png)
+![02_git_log.png](screenshots/02_git_log.png)
 
 История коммитов пуста, так как это новый репозиторий.
 
 
 
-![03.create_sort_c.png](screenshots/03.create_sort_c.png)
+![03_create_sort_c.png](screenshots/03_create_sort_c.png)
 
 Создание файла с функцией сортировки (пузырьковая сортировка).
 
 
 
-![04.status_untracked.png](screenshots/04.status_untracked.png)
+![04_status_untracked.png](screenshots/04_status_untracked.png)
 
 Файл не появился в списке, так как не выполнена команда git add.
 
 
 
-![05.git_add.png](screenshots/05.git_add.png)
+![05_git_add.png](screenshots/05_git_add.png)
 
 Команда добавляет файл в область подготовки (staging area).
 
 
 
-![06.status_staged.png](screenshots/06.status_staged.png)
+![06_status_staged.png](screenshots/06_status_staged.png)
 
 Теперь файл находится в "Changes to be committed" - готов к коммиту.
 
 
 
-![07.git_commit.png](screenshots/07.git_commit.png)
+![07_git_commit.png](screenshots/07_git_commit.png)
 
 Фиксация изменений с описательным сообщением.
 
 
 
-![08.status_clean.png](screenshots/08.status_clean.png)
+![08_status_clean.png](screenshots/08_status_clean.png)
 
 Рабочая директория чиста - все изменения зафиксированы.
 
@@ -60,7 +61,7 @@
 
 
 
-![10.modified_file.png](screenshots/10.modified_file.png)
+![10_modified_file.png](screenshots/10_modified_file.png)
 
 Git обнаружил изменения в файле, но они еще не проиндексированы.
 
@@ -78,43 +79,43 @@ Git обнаружил изменения в файле, но они еще не
 
 
 
-![13.second_change.png](screenshots/13.second_change.png)
+![13_second_change.png](screenshots/13_second_change.png)
 
 Добавляем второй комментарий.
 
 
 
-![14.second_commit.png](screenshots/14.second_commit.png)
+![14_second_commit.png](screenshots/14_second_commit.png)
 
 Фиксация второго набора изменений.
 
 
 
-![15.status_and_log.png](screenshots/15.status_and_log.png)
+![15_status_and_log.png](screenshots/15_status_and_log.png)
 
 Проверяем состояние и смотрим историю.
 
 
 
-![16.final_commit.png](screenshots/16.final_commit.png)
+![16_final_commit.png](screenshots/16_final_commit.png)
 
 Завершаем работу с файлом sort.c.
 
 
 
-![17.git_push.png](screenshots/17.git_push.png)
+![17_git_push.png](screenshots/17_git_push.png)
 
 Синхронизация локальных изменений с удаленным репозиторием.
 
 
 
-![18.create_branch.png](screenshots/18.create_branch.png)
+![18_create_branch.png](screenshots/18_create_branch.png)
 
 Создание ветки "mybranch" для изолированной разработки.
 
 
 
-![19.switch_branch.png](screenshots/19.switch_branch.png)
+![19_switch_branch.png](screenshots/19_switch_branch.png)
 
 Переход на созданную ветку для работы в ней.
 
@@ -126,7 +127,7 @@ Git обнаружил изменения в файле, но они еще не
 
 
 
-![21.create_file1.png](screenshots/21.create_file1.png)
+![21_create_file1.png](screenshots/21_create_file1.png)
 
 Создание файла с именем пользователя в ветке mybranch.
 
@@ -144,13 +145,13 @@ Git обнаружил изменения в файле, но они еще не
 
 
 
-![24.switch_master.png](screenshots/24.switch_master.png)
+![24_switch_master.png](screenshots/24_switch_master.png)
 
 Переключение обратно на основную ветку master.
 
 
 
-![25.create_file2.png](screenshots/25.create_file2.png)
+![25_create_file2.png](screenshots/25_create_file2.png)
 
 Создание отдельного файла в ветке master, чтобы показать различия.
 
