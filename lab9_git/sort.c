@@ -9,3 +9,10 @@ void bubbleSort(int arr[], int n) {
 }
 // Bubble sort implementation
 // Second commit :)
+
+int main() {
+    int a[] = {4, 2, 8, 5};
+    int n = 5;
+    bubbleSort(a, n);
+    return 0;
+}
