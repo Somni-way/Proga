@@ -6,7 +6,7 @@
 ## 📚 Описание
 
 Данный репозиторий содержит лабораторные работы по дисциплине **«Программирование»**.
-![FV5AgCHWAAEP2X5.jpg]([https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png](https://github.com/Somni-way/Proga/blob/master/FV5AgCHWAAEP2X5.jpg))
+![FV5AgCHWAAEP2X5.jpg](https://github.com/Somni-way/Proga/blob/master/FV5AgCHWAAEP2X5.jpg)
 
 
 ## 👨‍🎓 Автор
