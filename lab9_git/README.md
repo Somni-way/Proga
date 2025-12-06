@@ -73,7 +73,7 @@ Git обнаружил изменения в файле, но они еще не
 
 
 
-![12ready_to_commit.png](screenshots/12ready_to_commit.png)
+![12ready_to_commit.png](screenshots/12_ready_to_commit.png)
 
 Изменения готовы для коммит.
 
