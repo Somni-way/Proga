@@ -336,3 +336,103 @@ Git обнаружил изменения в файле, но они еще не
 ![37_push_master.png](screenshots_4/37_push_master.png)
   
 *Отправка обновленной основной ветки master на удаленный репозиторий.*
+
+
+**Оценка 5**
+
+---
+
+
+### **Конфликты с файлом file.txt**
+
+![01_create_branch1.png](screenshots_5/01_create_branch1.png)  
+
+*Создание новой ветки branch1.*
+
+![02_create_file_txt.png](screenshots_5/02_create_file_txt.png)  
+
+*Создание файла file.txt в ветке branch1 со строкой "This is a relevant fact".*
+
+![03_commit_branch1.png](screenshots_5/03_commit_branch1.png)  
+
+*Фиксация изменений в ветке branch1 при помощи коммита.*
+
+![04_conflict_master.png](screenshots_5/04_conflict_master.png)  
+
+*Создание конфликтующего изменения в основной ветке master - тот же файл file.txt получает другое содержимое.*
+
+![05_log_before_merge.png](screenshots_5/05_log_before_merge.png)  
+
+*Просмотр истории коммитов - видны расходящиеся ветки master и branch1.*
+
+![06_merge_conflict.png](screenshots_5/06_merge_conflict.png)  
+
+*Попытка слияния ветки branch1 в master приводит к конфликту - Git не может автоматически определить, какую версию файла оставить.*
+
+![07_status_conflict.png](screenshots_5/07_status_conflict.png)  
+
+*Статус Git показывает файл file.txt в состоянии конфликта - требуется ручное разрешение.*
+
+![08_resolve_conflict.png](screenshots_5/08_resolve_conflict.png)  
+
+*Ручное редактирование файла file.txt для разрешения конфликта - удаление маркеров и оставление единственной версии.*
+
+![09_commit_resolution.png](screenshots_5/09_commit_resolution.png)  
+
+*Фиксация разрешенного конфликта при помощи коммита.*
+
+![10_log_after_resolution.png](screenshots_5/10_log_after_resolution.png)  
+
+*Просмотр истории после успешного разрешения конфликта - видно слияние веток с созданием merge коммита.*
+
+![11_push_after_conflict.png](screenshots_5/11_push_after_conflict.png)  
+
+*Отправка обновленной ветки master на удаленный репозиторий.*
+
+
+### **Конфликты с mergesort.py**
+
+![12_create_base.png](screenshots_5/12_create_base.png)  
+
+*Создание базовой версии файла mergesort.py с заглушкой.*
+
+![13_commit_base.png](screenshots_5/13_commit_base.png)  
+
+*Фиксация базовой реализации в основной ветке master.*
+
+![14_create_impl_branch.png](screenshots_5/14_create_impl_branch.png)  
+
+*Создание отдельной ветки Mergesort-Impl.*
+
+![15_righty_implementation.png](screenshots_5/15_righty_implementation.png)  
+
+*Реализация сортировки слиянием в ветке Mergesort-Impl - версия "righty".*
+
+![16_commit_righty.png](screenshots_5/16_commit_righty.png)  
+
+*Фиксация "righty" в ветке Mergesort-Impl.*
+
+![17_lefty_implementation.png](screenshots_5/17_lefty_implementation.png)  
+
+*Альтернативная реализация сортировки -  "lefty" в основной ветке master.*
+
+![18_commit_lefty.png](screenshots_5/18_commit_lefty.png)  
+
+*Фиксация "lefty" в ветке master.*
+
+![19_log_before_merge_py.png](screenshots_5/19_log_before_merge_py.png)  
+
+*Просмотр истории перед слиянием - видны две ветки с разными кодами для сортировки.*
+
+![20_merge_conflict_py.png](screenshots_5/20_merge_conflict_py.png)  
+
+*Попытка слияния ветки Mergesort-Impl в master приводит к сложному конфликту в коде Python.*
+
+![21_resolve_py_conflict.png](screenshots_5/21_resolve_py_conflict.png)  
+
+*Ручное разрешение конфликта в файле mergesort.py.*
+
+![22_commit_merge_resolution.png](screenshots_5/22_commit_merge_resolution.png)  
+
+*Финальный коммит после успешного разрешения всех конфликтов кода.*
+
